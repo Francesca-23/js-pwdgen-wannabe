@@ -13,5 +13,7 @@ let name1 = prompt('Qual è il tuo nome?');
 let surname = prompt ('Qual è il tuo cognome?');
 let color = prompt ('Qual è il tuo colore preferito?');
 
-document.getElementById ('password').innerHTML = `<p>${name1}${surname}${color}21</p>`
+const number21 = 21;
+
+document.getElementById ('password').innerHTML = `<p>${name1 + surname + color + number21}</p>`
 
